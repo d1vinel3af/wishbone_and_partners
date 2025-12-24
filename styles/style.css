@@ -1,0 +1,47 @@
+body {
+    background-color: #e5e5e5;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-Regular.woff") format("woff");
+}
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-height: 5rem;
+}
+
+.header__logo {
+    width: 13.75rem;
+    height: 1.1875rem;
+    align-content: center;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: end;
+}
+.header__menu-item {
+    padding: 1rem;
+    font-family: 'Poppins';
+    line-height: 24px;
+    font-size: 18px;
+}

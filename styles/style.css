@@ -10,7 +10,6 @@ body {
 .page {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 1rem;
     background-color: #ffffff;
 }
 
@@ -44,4 +43,64 @@ body {
     font-family: 'Poppins';
     line-height: 24px;
     font-size: 18px;
+}
+
+.about {
+    background-color: rgba(236, 231, 228, 1);
+}
+
+.about__container {
+    height: 45rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.about__description {
+    width: 37.5rem;
+    height: 35.375rem;
+    align-self: center;
+    justify-self: center;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+
+.about__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.about__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 0%;
+    padding-bottom: 2rem;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 2rem;
+}
+
+.about__links {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    padding-left: 3rem;
+}
+
+.about__img-item {
+    width: 100%;
 }

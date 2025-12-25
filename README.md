@@ -1,1 +1,1 @@
-Сайт
+figma: https://www.figma.com/design/ODvu3zvuKToCLy4mwq5JfI/Wishbone?node-id=2-472&t=kt2kh4S9cYM0QJnO-0

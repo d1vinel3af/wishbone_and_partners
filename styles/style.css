@@ -45,6 +45,9 @@ body {
     font-size: 18px;
 }
 
+
+/* Блок About */
+
 .about {
     background-color: rgba(236, 231, 228, 1);
 }
@@ -103,4 +106,78 @@ body {
 
 .about__img-item {
     width: 100%;
+}
+
+
+/* Блок Our firm */
+
+.firm {
+    padding: 5rem 0 3rem;
+
+}
+
+.firm__container {
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 48rem;
+
+
+}
+
+.firm__label {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: rgba(64, 62, 59, 1);
+}
+
+.firm__description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    color: rgba(64, 62, 59, 1);
+}
+
+.firm__partner-profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.firm__partner-photo {
+    width: 5.25rem;
+    height: 5.25rem;
+}
+.firm__partner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.firm__partner-name {
+    color: rgba(27, 26, 26, 1);
+    line-height: 26px;
+    letter-spacing: 0%;
+    font-size: 17px;
+    font-weight: 400;
+    display: grid;
+    height: 50%;
+    align-items: end;
+}
+.firm__partner-role {
+    color: rgba(100, 92, 85, 1);
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50%;
+    display: grid;
+    align-items: start;
+    
 }
